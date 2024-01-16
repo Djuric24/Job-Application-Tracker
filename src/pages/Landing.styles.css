@@ -1,0 +1,50 @@
+.login-wrapper {
+  border-radius: 30px;
+  height: 100vh;
+}
+
+.login-img {
+  object-fit: contain;
+  width: 100%;
+}
+.login-text {
+  line-height: 1.6;
+  font-family: "Rajdhani", sans-serif;
+}
+.overlay {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+.login-button {
+  display: flex;
+}
+.right-side {
+  border-radius: 20px;
+  height: 80% !important;
+}
+.get-started-button {
+  text-decoration: none;
+  color: white !important;
+}
+@media screen and (max-width: 580px) {
+  .login-wrapper {
+    margin-top: 30px;
+    height: auto;
+  }
+  .login-button {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}

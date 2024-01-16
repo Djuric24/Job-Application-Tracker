@@ -1,0 +1,21 @@
+.navbar-text {
+  font-family: "Rajdhani", sans-serif;
+}
+.menu-button {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .menu-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30% !important;
+  }
+  .navbar-text {
+    text-align: center;
+  }
+  .logout-button {
+    width: 40% !important;
+  }
+}
