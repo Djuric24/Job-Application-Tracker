@@ -159,8 +159,8 @@ export const userSlice = createSlice({
     [deleteSite.fulfilled]: (state, action) => {
       // console.log(action.payload);
       state.user = action.payload;
-//     },
-//   },
-// });
-// export const { logout, setStatusFilter, tokenLogingInToggle } =
-//   userSlice.actions;
+    },
+  },
+});
+export const { logout, setStatusFilter, tokenLogingInToggle } =
+  userSlice.actions;
