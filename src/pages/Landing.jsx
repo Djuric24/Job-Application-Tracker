@@ -92,5 +92,5 @@ const Landing = () => {
     </Container>
   );
 };
-//tra
+
 export default Landing;
