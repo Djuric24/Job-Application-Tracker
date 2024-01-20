@@ -46,5 +46,4 @@ function App() {
     </>
   );
 }
-//sve radi lepo
 export default App;
