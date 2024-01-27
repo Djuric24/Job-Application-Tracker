@@ -40,7 +40,6 @@
   border-radius: 20px;
   height: 80% !important;
 }
-/* mid */
 @media screen and (max-width: 580px) {
   .login-wrapper {
     margin-top: 30px;
